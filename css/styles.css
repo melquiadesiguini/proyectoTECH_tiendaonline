@@ -19,7 +19,7 @@ body{
     height: 100vh;
 }
 main{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-bottom: 2rem ;
     flex:1;
@@ -84,7 +84,7 @@ a{
     margin: 2rem 0;
     background-color: #8B0000;
     color: #ffffff;
-    width: 40rem;
+    width: 30rem;
     height: auto;
     padding: 1.5rem;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -101,7 +101,7 @@ a{
 
 .img-prod{
     align-self: center;
-    max-height: 37rem;
+    max-height: 27rem;
     
 }
 h3{
