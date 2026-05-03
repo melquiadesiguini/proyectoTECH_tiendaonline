@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* -------------------------------------------------------------------------- */
+/*                                    Home                                    */
+/* -------------------------------------------------------------------------- */
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    background: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem ;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main>p{
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+header,  footer{
+    font-size: 2.8rem;
+    padding: 1rem ;
+    font-weight: bold; 
+    background: #000000;
+    color: #fff7fb;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.il-nav{
+    margin: 1rem;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 2rem 0;
+}
+h2{
+    color:black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin: 3 rem 0;
+}
+
+.div-logo{
+    margin-left: 1rem;
+}
+.logo{
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff7fb;
+}
+/* -------------------------------------------------------------------------- */
+/*                                    Cards                                   */
+/* -------------------------------------------------------------------------- */
+.card{
+    margin: 2rem 0;
+    background-color: #8B0000;
+    color: #ffffff;
+    width: 40rem;
+    height: auto;
+    padding: 1.5rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-image{
+    align-self: center;
+    overflow: hidden;
+    
+}
+
+.img-prod{
+    align-self: center;
+    max-height: 37rem;
+    
+}
+h3{
+    text-align:center;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 1.5rem;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+
+}
+
+.centrarbtn{
+    margin-top: auto;
+    padding-top: 2rem;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-productos{
+    margin-top: auto;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #ffffff;
+    background-color:  #333;
+    
+    
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+/* -------------------------------------------------------------------------- */
+footer{
+    justify-content: center;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                           Formulario de contacto                           */
+/* -------------------------------------------------------------------------- */
+.form-contacto{
+    background-color: rgba(139, 0, 0, .9);
+    width: 50vw;
+    border-radius: 15px;
+    padding: 3rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+label{
+    color: #ffffff;
+}
+.grupo-input{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+#btnctc{
+    margin-top: auto;
+}
+.lbl{
+    width: 80%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.footer-list img{
+    width: 5rem;
+    margin-top: 1rem;
+}
