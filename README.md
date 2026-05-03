@@ -1,2 +1,2 @@
 # proyectoTECH_tiendaonline
-Proyecto TECH tiendo online
+Proyecto TECH tienda online
