@@ -14,8 +14,6 @@ body{
     font-size: 1.6rem;
     background: #ffffff;
     color: black;
-    
-    
     height: 100vh;
 }
 main {
@@ -23,6 +21,7 @@ main {
     margin: 0 auto;
     padding: 3rem 2rem;
     overflow: hidden;
+    min-height: 100vh;
 }
 
 main>p{
@@ -157,7 +156,10 @@ p{
 footer{
     justify-content: center;
 }
-
+.footer-list img{
+    width: 5rem;
+    margin-top: 1rem;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                           Formulario de contacto                           */
@@ -174,6 +176,7 @@ footer{
     flex-wrap: nowrap;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+
 label{
     color: #ffffff;
 }
@@ -195,7 +198,3 @@ nav ul{
 }
 
 
-.footer-list img{
-    width: 5rem;
-    margin-top: 1rem;
-}
