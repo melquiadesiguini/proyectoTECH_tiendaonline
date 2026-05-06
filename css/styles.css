@@ -59,7 +59,7 @@ h2{
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    margin: 3 rem 0;
+    margin: 3rem 0;
 }
 
 .div-logo{
@@ -164,7 +164,7 @@ footer{
 /*                           Formulario de contacto                           */
 /* -------------------------------------------------------------------------- */
 .form-contacto{
-    background-color: rgba(139, 0, 0, .9);
+    background-color: #8B0000;
     margin: 0 auto;
     border-radius: 15px;
     padding: 3rem;
