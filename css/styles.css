@@ -99,10 +99,14 @@ section{
     overflow: hidden;
 }
 
-.img-prod{
-    align-self: center;
-    max-height: 27rem;
-    
+.img-prod {
+  align-self: center;
+  max-height: 27rem;
+  transition: opacity 0.2s ease, transform 0.3s ease;
+}
+
+.img-prod:hover {
+  transform: scale(1.03);
 }
 h3{
     text-align:center;
@@ -141,10 +145,13 @@ p{
     font-weight: bold;
     color: #ffffff;
     background-color:  #333;
-    
+    transition: 0.5s ease-in-out;
     
 }
+.btn:hover {
+    transform: scale(1.05);
 
+}
 .contenedor-tarjetas{
     display: flex;
     flex-wrap: wrap;
