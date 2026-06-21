@@ -5,7 +5,7 @@ import { actualizarContador } from "./ui.js";
 const renderizarProductos = () => {
     const contenedor = document.getElementById("contenedor-tarjetas");
     
-    fetch("../data/productos.json")
+    fetch("data/productos.json")
     .then(response => response.json())
     .then(data => data.forEach(producto=>{
         const tarjeta = document.createElement("article");
@@ -15,7 +15,7 @@ const renderizarProductos = () => {
         contenedorImg.classList.add("content-image");
 
         const image = document.createElement("img");
-        image.src = `../${producto.image}`;
+        image.src = `${producto.image}`;
         image.alt = producto.alt;
         image.classList.add("img-prod");
 
