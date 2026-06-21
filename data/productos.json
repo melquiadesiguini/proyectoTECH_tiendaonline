@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Karategi Pesado - Keiko Gi Pesado - Shiai",
+        "image": "img/Karategui Pesado.jpg",
+        "alt": "Karategui pesado",
+        "description": "¡Bienvenido al mundo del Karategi Keikogi Pesado 'Shiai'! Este conjunto es la elección perfecta para los practicantes de artes marciales que buscan calidad y comodidad en su entrenamiento. Confeccionado 100% en tela de algodón, garantiza una experiencia de uso excepcional.",
+        "price": 197800
+    },
+    {
+        "id": 2,
+        "title": "Karategi Corte Japones de 12 onzas - Kaizen",
+        "image": "img/Karategi Corte Japones.jpg",
+        "alt": "Karategi Corte Japones",
+        "description": "Descubrí el Karategi Corte Japonés, un uniforme de artes marciales confeccionado con la máxima calidad para potenciar tu rendimiento y comodidad durante los entrenamientos. Este karategi está elaborado en gabardina semi pesada Bull de 12 Oz, que combina resistencia y suavidad para adaptarse a las exigencias de la práctica diaria.",
+        "price": 131000
+    },
+    {
+        "id": 3,
+        "title": "Chaqueta negra para artes marciales",
+        "image": "img/Chaqueta negra para artes marciales.png",
+        "alt": "Chaqueta negra para artes marciales",
+        "description": "¡La chaqueta negra para artes marciales Kobudo-Gi Semipesado es la elección ideal para quienes buscan un uniforme que combine resistencia, comodidad y un diseño tradicional pensado para el rendimiento.",
+        "price": 80200
+    },
+    {
+        "id": 4,
+        "title": "Cinturon de grado 10 costuras con relleno",
+        "image": "img/Cinturon 10 costuras con relleno.png",
+        "alt": "Cinturon 10 costuras con relleno",
+        "description": "Este cinturón es ideal para tus entrenamientos, confeccionado con 10 costuras que garantizan durabilidad y resistencia. Su diseño robusto y ajustable se adapta a cualquier actividad, brindando comodidad y soporte.",
+        "price": 14400
+    },
+    {
+        "id": 5,
+        "title": "Karategi para Kumite Student aprobado por WKF",
+        "image": "img/Karategi para Kumite Student aprobado por WKF.webp",
+        "alt": "Karategi para Kumite Student aprobado por WKF",
+        "description": "El Karategi Student de 8oz es la elección perfecta para quienes buscan un uniforme de karate diseñado específicamente para entrenar kumite con comodidad y rendimiento. Fabricado por la reconocida marca SMAI y aprobado por la World Karate Federation (WKF).",
+        "price": 125100
+    },
+    {
+        "id": 6,
+        "title": "Karategi Kaminari X - SMAI - Premium 14 oz - WKF",
+        "image": "img/Karategi Kaminari X - SMAI - Karategi Premium de 14 oz - WKF.webp",
+        "alt": "Karategi Kaminari X - SMAI - Karategi Premium de 14 oz - WKF",
+        "description": "El Kaminari X es nuestro Kata Gi más elegante. Fabricado con una mezcla superior de algodón y poliéster para ofrecer un gi fácil de lavar y usar que no compromete la comodidad ni el chasquido nítido.",
+        "price": 771300
+    },
+    {
+        "id": 7,
+        "title": "Guantes de Karate SMAI - Aprobados por WKF",
+        "image": "img/Guantes de Karate SMAI - Aprobados por WKF.webp",
+        "alt": "Guantes de Karate SMAI - Aprobados por WKF",
+        "description": "Los Guantes de Karate SMAI son la opción ideal para quienes buscan combinar calidad, seguridad y rendimiento en cada entrenamiento y competencia. Aprobados por la Federación Mundial de Karate (WKF).",
+        "price": 89280
+    },
+    {
+        "id": 8,
+        "title": "Mochila + Bolso extensible - Smai",
+        "image": "img/Mochila + Bolso extensible Smai.webp",
+        "alt": "Mochila + Bolso extensible Smai",
+        "description": "Descubrí la Mochila + Bolso Extensible Smai, la solución perfecta para transportar todo tu equipo de protecciones de kumite junto con tu ropa, combinando funcionalidad, comodidad y estilo.",
+        "price": 322900
+    },
+    {
+        "id": 9,
+        "title": "Cinturon SMAI Negro Aprobado WKF",
+        "image": "img/Cinturon SMAI Negro Aprobado WKF.png",
+        "alt": "Cinturon SMAI Negro Aprobado WKF",
+        "description": "Presentamos el Cinturón SMAI Negro, un accesorio esencial para tus actividades de artes marciales. Este cinturón importado destaca por su calidad y diseño meticuloso, ideal para quienes buscan durabilidad y estilo.",
+        "price": 54600
+    }
+]

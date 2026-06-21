@@ -1,34 +1,35 @@
-import { productos } from "./productos.js";
 import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
 
 const renderizarProductos = () => {
     const contenedor = document.getElementById("contenedor-tarjetas");
-
-    productos.forEach((producto) => {
+    
+    fetch("../data/productos.json")
+    .then(response => response.json())
+    .then(data => data.forEach(producto=>{
         const tarjeta = document.createElement("article");
         tarjeta.classList.add("card", "text-dark");
 
         const contenedorImg = document.createElement("div");
         contenedorImg.classList.add("content-image");
 
-        const img = document.createElement("img");
-        img.src = `./${producto.imagen}`;
-        img.alt = producto.alt;
-        img.classList.add("img-prod");
+        const image = document.createElement("img");
+        image.src = `../${producto.image}`;
+        image.alt = producto.alt;
+        image.classList.add("img-prod");
 
-        const titulo = document.createElement("h3");
-        titulo.textContent = producto.nombre;
+        const title = document.createElement("h3");
+        title.textContent = producto.title;
 
-        const descripcion = document.createElement("p");
-        descripcion.textContent = producto.descripcion;
+        const description = document.createElement("p");
+        description.textContent = producto.description;
 
         const centrarbtn = document.createElement("div");
         centrarbtn.classList.add("centrarbtn");
 
-        const precio = document.createElement("p");
-        precio.textContent = `$${producto.precio.toLocaleString("es-AR")}`;
+        const price = document.createElement("p");
+        price.textContent = `$${producto.price.toLocaleString("es-AR")}`;
 
         const boton = document.createElement("button");
         boton.classList.add("btn", "bg-secondary", "text-dark");
@@ -36,19 +37,22 @@ const renderizarProductos = () => {
 
         boton.addEventListener("click", () => {
             agregarAlCarrito(producto);
-        });
+        })
 
-        contenedorImg.appendChild(img);
-        centrarbtn.appendChild(precio);
+        
+        contenedorImg.appendChild(image);
+        centrarbtn.appendChild(price);
         centrarbtn.appendChild(boton);
-
+        
         tarjeta.appendChild(contenedorImg);
-        tarjeta.appendChild(titulo);
-        tarjeta.appendChild(descripcion);
+        tarjeta.appendChild(title);
+        tarjeta.appendChild(description);
         tarjeta.appendChild(centrarbtn);
 
         contenedor.appendChild(tarjeta);
-    });
+    }))
+    .catch(error => console.log(error));
+
 };
 document.addEventListener("DOMContentLoaded", () => {
     const carrito = obtenerCarrito();
