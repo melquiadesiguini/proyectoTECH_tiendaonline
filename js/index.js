@@ -15,7 +15,7 @@ const renderizarProductos = () => {
         contenedorImg.classList.add("content-image");
 
         const image = document.createElement("img");
-        image.src = `${producto.image}`;
+        image.src = producto.image;
         image.alt = producto.alt;
         image.classList.add("img-prod");
 
