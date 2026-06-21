@@ -13,7 +13,6 @@ export const agregarAlCarrito = (producto) => {
 
     guardarCarrito(carrito);
     actualizarContador(carrito);
-    mostrarMensaje("Producto agregado 🎉");
 };
 
 export const sumarCantidad = (indice) => {

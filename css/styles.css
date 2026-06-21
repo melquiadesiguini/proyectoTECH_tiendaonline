@@ -92,7 +92,8 @@ section{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .content-image{
@@ -160,7 +161,7 @@ p{
 .contenedor-tarjetas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 2rem 1.5rem;
 }
 
@@ -171,9 +172,8 @@ p{
     right: 2rem;
     z-index: 100;
 }
-.finalizar-compra:hover{
-    background: #8B0000;
-}
+.finalizar-compra:hover{background-color: #8B0000;}
+
 .acciones-carrito .btn{
     margin-top: 0;
     box-shadow: rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -194,7 +194,7 @@ p{
     border-radius: 50%;
     background-color: #333;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -205,7 +205,7 @@ p{
 }
 
 .valor-cantidad{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
     min-width: 2rem;
     text-align: center;
@@ -270,11 +270,19 @@ nav ul{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     header,
     footer{
         flex-direction: column;
     }
     .grupo-input{
         flex-direction: column;}
+
+    .finalizar-compra{
+    font-size: 2rem;
+    position: sticky;
+    bottom: 4rem;
+    right: 2rem;
+    z-index: 100;
+}
 }
