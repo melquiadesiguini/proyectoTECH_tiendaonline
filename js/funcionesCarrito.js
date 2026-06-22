@@ -38,7 +38,6 @@ export const restarCantidad = (indice) => {
 export const vaciarCarrito = () => {
     vaciarCarritoStorage();
     actualizarContador([]);
-    mostrarMensaje("Carrito vaciado");
 };
 
 export const finalizarCompra = () => {
