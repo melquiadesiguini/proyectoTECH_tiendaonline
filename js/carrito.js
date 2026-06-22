@@ -1,5 +1,5 @@
 import { obtenerCarrito } from "./storage.js";
-import { sumarCantidad, restarCantidad, finalizarCompra } from "./funcionesCarrito.js";
+import { sumarCantidad, restarCantidad, finalizarCompra, vaciarCarrito } from "./funcionesCarrito.js";
 import { actualizarContador } from "./ui.js";
 
 
@@ -92,6 +92,16 @@ const renderizarCarrito = ()=>{
 
         contenedor.appendChild(tarjeta);
     })
+    const btnvaciarCarrito = document.createElement("button");
+    btnvaciarCarrito.classList.add("btn", "bg-secondary", "text-dark");
+    btnvaciarCarrito.textContent = "Vaciar carrito";
+
+    btnvaciarCarrito.addEventListener("click", () => {
+        vaciarCarrito();
+        renderizarCarrito();
+    });
+
+    divAcciones.appendChild(btnvaciarCarrito);
 
     const btnFinalizar = document.createElement("button");
     btnFinalizar.classList.add("btn", "bg-secondary", "text-dark", "finalizar-compra");
